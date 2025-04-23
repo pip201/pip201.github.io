@@ -1,0 +1,57 @@
+body {
+    margin: 0; /*  убираем лишние отступы  */
+    font-family: monospace; /*  шрифт  */
+    font-size: 24px; /*  размер шрифта  */
+}
+
+header {
+    background-color: #315af2; /*  цвет фона  */
+    color: rgb(255, 183, 0); /*  цвет текста  */
+    padding: 30px; /*  отступы для содержимого шапки */
+}   
+
+main {
+    padding: 50px; /*  отступы для содержимого */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3vh;
+
+    height: 60;
+    width: 100%;
+    background-image: url(/Itogy/images/bubulator.jpeg);
+}
+
+button{
+    font-size: 3vh;
+    height: 12vh;
+    width: 26vh;
+    border: solid;
+    border-radius: 5%;
+    transition: 2s;
+}
+
+button:hover{
+    font-size: 4vh;
+    height: 18vh;
+    width: 34vh;
+    /* border-radius: 40%; */
+    transition: 1,5s;
+    border: 1rem solid;
+}
+
+/* a{
+    text-decoration: none;
+    color: rgb(0, 255, 38);
+} */
+
+footer {
+    background-color: #383838; /*  цвет фона  */
+    color: white; /*  цвет текста  */
+    padding: 50px; /*  отступы для содержимого подвала */
+}
+/* .zaglyhka{
+    height: 400px;
+    width: 100%;
+    background-image: url(/Itogy/images/bubulator.jpeg);
+} */
